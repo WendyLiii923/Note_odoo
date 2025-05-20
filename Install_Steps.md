@@ -14,8 +14,14 @@
 
 安裝 相關套件  
 
-啟動 Odoo 伺服器：  
+啟動 Odoo 伺服器：  (可以寫成.bat)
 在命令提示符中執行 python odoo-bin 啟動 Odoo。  
 cd C:/odoo  
 python odoo-bin -c odoo.conf -d odoo -i base  
 python odoo-bin -c odoo.conf  
+
+
+=====  
+加裝wkhtmltopdf
+下載
+加入環境變數 C:\Program Files\wkhtmltopdf\bin
