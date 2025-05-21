@@ -47,17 +47,14 @@ python odoo-bin -c odoo.conf -d odoo -i base
 ---
 
 #### ▶ 啟動 Odoo 伺服器
-執行以下指令可啟動 Odoo：
+- 執行以下指令可啟動伺服器：
 
 ```bash
 cd C:\odoo-18.0
 python odoo-bin -c odoo.conf
 ```
 
----
-
-#### ▶ 建立啟動用 .bat 檔
-可將下列內容存成 `start_odoo.bat`，雙擊即可啟動 Odoo：
+- 可將下列內容存成 `start_odoo.bat`，雙擊即可啟動伺服器：
 
 ```bat
 @echo off
