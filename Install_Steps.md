@@ -58,15 +58,6 @@ cd C:\odoo-18.0
 python odoo-bin -c odoo.conf
 ```
 
-- 可將下列內容存成 `start_odoo.bat`，雙擊即可啟動伺服器：
-
-```bat
-@echo off
-cd /d C:\odoo-18.0
-python odoo-bin -c odoo.conf
-pause
-```
-
 ---
 
 #### :star: 安裝 wkhtmltopdf（PDF 生成功能）
