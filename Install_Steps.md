@@ -44,7 +44,7 @@ logfile = C:/odoo-18.0/logs/odoo.log
 
 ```bash
 cd C:\odoo-18.0
-python odoo-bin -c odoo.conf -d odoo -i base
+python odoo-bin -c odoo.conf -d odoo --without-demo=all -i base
 ```
 > ※ 僅需在首次建立資料庫或需要重新安裝模組時使用 `-i`（install）選項
 
